@@ -1,0 +1,7 @@
+shutdown -h now 立即关机
+shutdown -h 1   一分钟后关机
+shutdown -r now 立即重启
+halt      关机
+reboot  重启
+sync    保存内存数据到磁盘 关机或重启前最好执行一下 sync
+logout 注销指令 图形运行级别无效 运行级别3以下有效
