@@ -25,3 +25,21 @@ mkdir /usr/meng/test
 
 pwd
 显示当前所在目录 不知道自己在哪里可以用这个
+
+
+
+groupadd dianqi
+可以添加一个组 名字叫dianqi
+
+useradd -g dianqi fengshan
+往dianqi这个组添加一个叫fengshan的用户
+
+groupadd laji
+usermod -g laji fengshan
+创建一个新的组laji
+把fengshan移动到laji的组
+
+<h4>用户和组的文件</h4>
+/etc/passwd 
+/etc/shadow 
+/etc/group 
