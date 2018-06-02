@@ -1,0 +1,2 @@
+lsb_release -a  可查看centos版本 如有错误 安装leb_release
+yum install lsb 安装lsb_release
